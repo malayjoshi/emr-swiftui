@@ -11,7 +11,10 @@ import SwiftUI
 struct emr_ios_projectApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            NavigationView{
+                LoginView()
+            }
+            
         }
     }
 }
